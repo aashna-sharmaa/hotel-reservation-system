@@ -1,7 +1,7 @@
 '''
-Project 2 - Hotel Reservation System (Part 3) - Spring 2026
+Hotel Reservation System - Spring 2026
 
-Author: Aashna Sharma 906766798
+Author: Aashna Sharma
 
 This program is a hotel reservation system where it prompts the user for information
 such as room type, age, nights stayed, and first and last name and stores them in a dictionary.
@@ -139,7 +139,7 @@ def edit_reservation(all_reservations):
         print("That reservation ID does not exist.")
         return all_reservations
     
-    print("Modifing reservation:")
+    print("Modifying reservation:")
     
     rooms = ['single', 'double', 'king', 'suite']
     room_type = ''
